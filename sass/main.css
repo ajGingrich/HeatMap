@@ -1,0 +1,91 @@
+body {
+  /*background-image: url('http://s1.1zoom.net/big0/715/France_Scenery_Roads_439379.jpg');*/
+  background-color: gray;
+  background-size: cover;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; }
+
+/*Labels*/
+.title {
+  position: absolute;
+  display: block; }
+
+#title {
+  margin-left: 235px;
+  margin-top: 17.5px; }
+
+#xTitle {
+  margin-top: 505px;
+  margin-left: 555px; }
+
+#yTitle {
+  margin-left: 115px;
+  margin-top: 295px;
+  transform: rotate(270deg);
+  transform-origin: left top 0; }
+
+#key {
+  margin-left: 673px;
+  margin-top: 30px;
+  font-size: 12px; }
+
+.coverUp {
+  fill: white; }
+
+#chartContainer {
+  margin: 35px 0 0 75px;
+  height: 550px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 15px; }
+
+.tooltip {
+  background-color: #eddf74;
+  border-radius: 2px;
+  height: 50px;
+  width: 100px;
+  font-size: 12px;
+  text-align: center; }
+
+.toolText {
+  margin-top: 5px;
+  line-height: 150%; }
+
+.bar:hover {
+  fill: #10027a; }
+
+/*different colors for each temp*/
+.temp0 {
+  fill: #1cea4c; }
+
+.temp3 {
+  fill: #a5182d; }
+
+.temp4 {
+  fill: #8718a5; }
+
+.temp5 {
+  fill: #27d89d; }
+
+.temp6 {
+  fill: #eae202; }
+
+.temp7 {
+  fill: #f7702c; }
+
+.temp8 {
+  fill: #b8cc6a; }
+
+.temp9 {
+  fill: #01890f; }
+
+.temp10 {
+  fill: #ed0b0b; }
+
+.temp11 {
+  fill: #00a6bc; }
+
+.temp12 {
+  fill: #002760; }
+
+/*# sourceMappingURL=main.css.map */

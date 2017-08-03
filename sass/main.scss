@@ -1,0 +1,97 @@
+$barColor: #09961e;
+$height: 420px;
+$width: 820px;
+$chartMarginLeft: 75px;
+$chartMarginTop: 35px;
+
+body {
+  /*background-image: url('http://s1.1zoom.net/big0/715/France_Scenery_Roads_439379.jpg');*/
+  background-color: gray;
+  background-size: cover;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/*Labels*/
+.title {
+  position: absolute;
+  display: block;
+}
+#title {
+  margin-left: $chartMarginLeft + 160px;
+  margin-top: $chartMarginTop/2;
+}
+#xTitle {
+  margin-top: $height + $chartMarginTop + 50;
+  margin-left: $chartMarginLeft + $width/2 + 70;
+}
+#yTitle {
+  margin-left: $chartMarginLeft + 40;
+  margin-top: $chartMarginTop + $height/2 + 50;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+#key {
+  margin-left: $chartMarginLeft + $width - 222;
+  margin-top: $chartMarginTop - 5;
+  font-size: 12px;
+}
+.coverUp {
+  fill: white;
+}
+#chartContainer {
+  margin: $chartMarginTop 0 0 $chartMarginLeft;
+  height: 550px;
+  width: 1000px;
+  background-color: white;
+  border-radius: 15px;
+}
+.tooltip {
+  background-color: #eddf74;
+  border-radius: 2px;
+  height: 50px;
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+}
+.toolText {
+  margin-top: 5px;
+  line-height: 150%;
+}
+.bar:hover {
+  fill: #10027a;
+}
+
+/*different colors for each temp*/
+.temp0 {
+  fill: #1cea4c;
+}
+.temp3 {
+  fill: #a5182d;
+}
+.temp4 {
+  fill: #8718a5;
+}
+.temp5 {
+  fill: #27d89d;
+}
+.temp6 {
+  fill: #eae202;
+}
+.temp7 {
+  fill: #f7702c;
+}
+.temp8 {
+  fill: #b8cc6a;
+}
+.temp9 {
+  fill: #01890f;
+}
+.temp10 {
+  fill: #ed0b0b;
+}
+.temp11 {
+  fill: #00a6bc;
+}
+.temp12 {
+  fill: #002760;
+}
